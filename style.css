@@ -2,36 +2,31 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
 }
 
 header {
-    background-color: #333;
+    background-color: #222;
     color: #fff;
     text-align: center;
     padding: 20px 0;
 }
 
-img {
-    width: 150px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Rounded corners for a circular image */
-    margin-bottom: 10px; /* Space between image and heading */
-}
-
-h1 {
+h1, h2, h3 {
     margin: 0;
 }
 
-.summary, .experience {
+p {
+    margin-top: 5px;
+}
+
+section {
+    background-color: #fff;
     padding: 20px;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-.job {
     margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 ul {
@@ -39,4 +34,14 @@ ul {
     margin-left: 20px;
 }
 
-/* Add more styling rules for other sections as needed */
+.skills ul, .certifications ul {
+    padding-left: 0;
+}
+
+.education p {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+/* Add more styling rules as needed */
